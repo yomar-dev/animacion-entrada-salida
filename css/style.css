@@ -9,7 +9,7 @@ body{
 	width: 100px;
 	height: 100px;
 	background-color: teal;
-	animation: animationIn 1s;
+	animation: animationIn 1s alternate infinite;
 }
 
 @keyframes animationIn {
