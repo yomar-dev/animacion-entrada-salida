@@ -9,4 +9,14 @@ body{
 	width: 100px;
 	height: 100px;
 	background-color: teal;
+	animation: animationIn 2s;
+}
+
+@keyframes animationIn {
+	0% {
+		transform: translateY(-3000px)
+	}
+	100% {
+		transform: translateY(0px)
+	}
 }
