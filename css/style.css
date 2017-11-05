@@ -9,7 +9,7 @@ body{
 	width: 100px;
 	height: 100px;
 	background-color: teal;
-	animation: animationOut 1s;
+	animation: animationOut 1s forwards;
 }
 
 @keyframes animationIn {
@@ -37,7 +37,7 @@ body{
 	75% {
 		transform: translateY(30px);
 	}
-	90% {
+	100% {
 		transform: translateY(-3000px);
 	}
 }
