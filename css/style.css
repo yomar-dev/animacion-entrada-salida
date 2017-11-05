@@ -4,3 +4,9 @@ body{
 	align-items: center;
 	height: 100vh;
 }
+
+.cuadrado{
+	width: 100px;
+	height: 100px;
+	background-color: teal;
+}
